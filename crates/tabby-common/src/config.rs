@@ -68,7 +68,7 @@ pub struct ServerConfig {
 impl Default for ServerConfig {
     fn default() -> Self {
         Self {
-            completion_timeout: 30,
+            completion_timeout: 300,
         }
     }
 }
